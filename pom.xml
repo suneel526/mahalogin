@@ -115,7 +115,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-73-206.ec2.internal-snapshots</name>
-        <url>http://3.236.248.69:8081/artifactory/libs-snapshot-local</url>
+        <url>http://3.235.242.236:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 </project>

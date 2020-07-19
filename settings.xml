@@ -22,13 +22,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>http://3.236.248.69:8082/artifactory/libs-release</url>
+          <url>http://3.235.242.236:8081/artifactory/libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>http://3.236.248.69:8082/artifactory/libs-snapshot</url>
+          <url>http://3.235.242.236:8081/artifactory/libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -38,13 +38,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>http://3.236.248.69:8082/artifactory/libs-release</url>
+          <url>http://3.235.242.236:8081/artifactory/libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>http://3.236.248.69:8082/artifactory/libs-snapshot</url>
+          <url>http://3.235.242.236:8081/artifactory/libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
@@ -53,24 +53,4 @@
   <activeProfiles>
     <activeProfile>artifactory</activeProfile>
   </activeProfiles>
-  
-  <pluginGroups>
-        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
-    </pluginGroups>
-    <profiles>
-        <profile>
-            <id>sonar</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <!-- Optional URL to server. Default value is http://localhost:9000 -->
-                <sonar.host.url>
-                  http://3.236.248.69:9000
-                </sonar.host.url>
-				<sonar.login>admin</sonar.login>
-				<sonar.password>suneel123</sonar.password>
-				</properties>
-        </profile>
-     </profiles>
 </settings>
